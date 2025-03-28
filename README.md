@@ -2,6 +2,8 @@
 
 A .NET CLI tool that segments rich text from an Excel file and saves it to JSON.
 
+The [code here](./Program.cs) is licensed under the ['Unlicense License'](./LICENSE), feel free to use it as you wish/as an example for how to extract rich text, but `EPPlus` (the spreadsheet library this uses) itself is licensed under [Polyform Noncommercial license](https://www.epplussoftware.com/en/LicenseOverview/)
+
 ## Installation
 
 - Install the `dotnet` SDK
