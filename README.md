@@ -5,7 +5,6 @@ A .NET CLI tool that segments rich text from an Excel file and saves it to JSON.
 ## Installation
 
 - Install the `dotnet` SDK
-- A compatible Excel file (e.g., `.xlsx`)
 
 1. Clone/Download dependencies/build:
 
@@ -21,7 +20,7 @@ dotnet build
 dotnet run <input.xlsx> <output.json>
 ```
 
-This generates a mapping like `{"<worksheet name>": [cell1, cell2]}`, where each cell looks like this:
+This generates a mapping like `{"<worksheet name>": [cell1, cell2, ...]}`, where each cell looks like this:
 
 ```
 {
