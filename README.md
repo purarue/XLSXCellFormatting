@@ -29,13 +29,7 @@ This generates a mapping like `{"<worksheet name>": [cell1, cell2, ...]}`, where
   "FullText": "Here is some text\nThis is bold\nThis is italic\nThis is underlined.",
   "RichTextChildren": [
     {
-      "Text": "Here is some text",
-      "IsBold": false,
-      "IsItalic": false,
-      "IsUnderline": false
-    },
-    {
-      "Text": "\n",
+      "Text": "Here is some text\n",
       "IsBold": false,
       "IsItalic": false,
       "IsUnderline": false
