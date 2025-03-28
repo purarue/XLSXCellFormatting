@@ -22,7 +22,7 @@ dotnet run <input.xlsx> <output.json>
 
 This generates a mapping like `{"<worksheet name>": [cell1, cell2, ...]}`, where each cell looks like this:
 
-```
+```json
 {
   "Row": 26,
   "Column": 4,
