@@ -32,39 +32,39 @@ This generates a mapping like `{"<worksheet name>": [cell1, cell2, ...]}`, where
   "RichTextChildren": [
     {
       "Text": "Here is some text\n",
-      "IsBold": false,
-      "IsItalic": false,
-      "IsUnderline": false
+      "Bold": false,
+      "Italic": false,
+      "Underline": false
     },
     {
       "Text": "This is bold",
-      "IsBold": true,
-      "IsItalic": false,
-      "IsUnderline": false
+      "Bold": true,
+      "Italic": false,
+      "Underline": false
     },
     {
       "Text": "\n",
-      "IsBold": false,
-      "IsItalic": false,
-      "IsUnderline": false
+      "Bold": false,
+      "Italic": false,
+      "Underline": false
     },
     {
       "Text": "This is italic",
-      "IsBold": false,
-      "IsItalic": true,
-      "IsUnderline": false
+      "Bold": false,
+      "Italic": true,
+      "Underline": false
     },
     {
       "Text": "\n",
-      "IsBold": false,
-      "IsItalic": false,
-      "IsUnderline": false
+      "Bold": false,
+      "Italic": false,
+      "Underline": false
     },
     {
       "Text": "This is underlined.",
-      "IsBold": false,
-      "IsItalic": false,
-      "IsUnderline": true
+      "Bold": false,
+      "Italic": false,
+      "Underline": true
     }
   ]
 }

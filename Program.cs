@@ -66,9 +66,9 @@ class Program
                                     cellInfo.RichTextChildren.Add(new RichTextPart
                                     {
                                         Text = richText.Text,
-                                        IsBold = richText.Bold,
-                                        IsItalic = richText.Italic,
-                                        IsUnderline = richText.UnderLine
+                                        Bold = richText.Bold,
+                                        Italic = richText.Italic,
+                                        Underline = richText.UnderLine
                                     });
                                 }
                             }
@@ -78,9 +78,9 @@ class Program
                                 cellInfo.RichTextChildren.Add(new RichTextPart
                                 {
                                     Text = cell.Text,
-                                    IsBold = false,
-                                    IsItalic = false,
-                                    IsUnderline = false
+                                    Bold = false,
+                                    Italic = false,
+                                    Underline = false
                                 });
                             }
 
@@ -88,7 +88,7 @@ class Program
                         }
                     }
 
-                    result[worksheet.Name] = cellList;
+                    result[worksheet.Name.Trim()] = cellList;
                 }
 
                 string json = JsonConvert.SerializeObject(result, Formatting.Indented);
@@ -120,8 +120,8 @@ public class CellInfo
 public class RichTextPart
 {
     public string? Text { get; set; }
-    public bool IsBold { get; set; }
-    public bool IsItalic { get; set; }
-    public bool IsUnderline { get; set; }
+    public bool Bold { get; set; }
+    public bool Italic { get; set; }
+    public bool Underline { get; set; }
 }
 
